@@ -1,0 +1,500 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Food Counter</title>
+</head>
+<body>
+
+    <div class="parentcontainer">
+        <div class="containertop">
+
+            <h1>Raju Da Meal Counter</h1>
+
+            <div class="legend">
+                
+               <div class="mealdiv">
+                <div class="check"></div>
+                <span class="mealname">Meal</span>
+
+               </div>
+                
+
+
+               <div class="mealdiv">
+                <div class="uncheck"></div>
+                <span class="mealname">No meal</span>
+
+               </div>
+          </div>
+
+          <div class="divtotal">
+           
+            <h1 >Count: </h1>
+            <span id ="count">00</span>
+            <h1>Bill: </h1>
+            <span id="bill">00</span>
+
+
+          </div>
+
+    <button id="save">Save</button>
+
+        </div>
+
+
+        <div class="containerbottom">
+
+            <div class="selectdiv">
+
+                <label for="" id="lab">Select Month</label>
+                <select name="" id="monthselect">
+                    <option value="31">january</option>
+                    <option value="29">February</option>
+                    <option value="31">March</option>
+                    <option value="30">April</option>
+                    <option value="31">May</option>
+                    <option value="30">June</option>
+                    <option value="31">July</option>
+                    <option value="31">August</option>
+                    <option value="30">September</option>
+                    <option value="31">October</option>
+                    <option value="30">November</option>
+                    <option value="31">December</option>
+                </select>
+            </div>
+
+            <div class="calender">
+                <div class="row">
+
+                    <div class="day">1
+                       <div class="meal">
+                        <div class="icon"></div>
+                        <span class="iconmeal">Meal 1</span>
+                        </div>
+                        <div class="meal">
+                            <div class="icon"></div>
+                            <span>Meal 2</span>
+                            </div>
+                      </div>
+
+                      <div class="day">2
+                        <div class="meal">
+                         <div class="icon"></div>
+                         <span class="iconmeal">Meal 1</span>
+                         </div>
+                         <div class="meal">
+                             <div class="icon"></div>
+                             <span class="iconmeal">Meal 2</span>
+                             </div>
+                       </div>
+
+                       <div class="day">3
+                        <div class="meal">
+                         <div class="icon"></div>
+                         <span class="iconmeal">meal 1</span>
+                         </div>
+                         <div class="meal">
+                             <div class="icon"></div>
+                             <span class="iconmeal">meal 2</span>
+                             </div>
+                       </div>
+
+                       <div class="day">4
+                        <div class="meal">
+                         <div class="icon"></div>
+                         <span class="iconmeal">meal 1</span>
+                         </div>
+                         <div class="meal">
+                             <div class="icon"></div>
+                             <span class="iconmeal">meal 2</span>
+                             </div>
+                       </div>
+
+
+                       <div class="day">5
+                        <div class="meal">
+                         <div class="icon"></div>
+                         <span class="iconmeal">meal 1</span>
+                         </div>
+                         <div class="meal">
+                             <div class="icon"></div>
+                             <span class="iconmeal">meal 2</span>
+                             </div>
+                       </div>
+
+
+                       <div class="day">6
+                        <div class="meal">
+                         <div class="icon"></div>
+                         <span class="iconmeal">meal 1</span>
+                         </div>
+                         <div class="meal">
+                             <div class="icon"></div>
+                             <span class="iconmeal">meal 2</span>
+                             </div>
+                       </div>
+
+
+                       <div class="day">7
+                        <div class="meal">
+                         <div class="icon"></div>
+                         <span class="iconmeal">meal 1</span>
+                         </div>
+                         <div class="meal">
+                             <div class="icon"></div>
+                             <span class="iconmeal">meal 2</span>
+                             </div>
+                       </div>
+     </div>
+     <div class="row">
+
+        <div class="day">8
+           <div class="meal">
+            <div class="icon"></div>
+            <span class="iconmeal">meal 1</span>
+            </div>
+            <div class="meal">
+                <div class="icon"></div>
+                <span>meal 2</span>
+                </div>
+          </div>
+
+          <div class="day">9
+            <div class="meal">
+             <div class="icon"></div>
+             <span class="iconmeal">meal 1</span>
+             </div>
+             <div class="meal">
+                 <div class="icon"></div>
+                 <span class="iconmeal">meal 2</span>
+                 </div>
+           </div>
+
+           <div class="day">10
+            <div class="meal">
+             <div class="icon"></div>
+             <span class="iconmeal">meal 1</span>
+             </div>
+             <div class="meal">
+                 <div class="icon"></div>
+                 <span class="iconmeal">meal 2</span>
+                 </div>
+           </div>
+
+           <div class="day">11
+            <div class="meal">
+             <div class="icon"></div>
+             <span class="iconmeal">meal 1</span>
+             </div>
+             <div class="meal">
+                 <div class="icon"></div>
+                 <span class="iconmeal">meal 2</span>
+                 </div>
+           </div>
+
+
+           <div class="day">12
+            <div class="meal">
+             <div class="icon"></div>
+             <span class="iconmeal">meal 1</span>
+             </div>
+             <div class="meal">
+                 <div class="icon"></div>
+                 <span class="iconmeal">meal 2</span>
+                 </div>
+           </div>
+
+
+           <div class="day">13
+            <div class="meal">
+             <div class="icon"></div>
+             <span class="iconmeal">meal 1</span>
+             </div>
+             <div class="meal">
+                 <div class="icon"></div>
+                 <span class="iconmeal">meal 2</span>
+                 </div>
+           </div>
+
+
+           <div class="day">14
+            <div class="meal">
+             <div class="icon"></div>
+             <span class="iconmeal">meal 1</span>
+             </div>
+             <div class="meal">
+                 <div class="icon"></div>
+                 <span class="iconmeal">meal 2</span>
+                 </div>
+           </div>
+</div>
+
+<div class="row">
+
+    <div class="day">15
+       <div class="meal">
+        <div class="icon"></div>
+        <span class="iconmeal">meal 1</span>
+        </div>
+        <div class="meal">
+            <div class="icon"></div>
+            <span>meal 2</span>
+            </div>
+      </div>
+
+      <div class="day">16
+        <div class="meal">
+         <div class="icon"></div>
+         <span class="iconmeal">meal 1</span>
+         </div>
+         <div class="meal">
+             <div class="icon"></div>
+             <span class="iconmeal">meal 2</span>
+             </div>
+       </div>
+
+       <div class="day">17
+        <div class="meal">
+         <div class="icon"></div>
+         <span class="iconmeal">meal 1</span>
+         </div>
+         <div class="meal">
+             <div class="icon"></div>
+             <span class="iconmeal">meal 2</span>
+             </div>
+       </div>
+
+       <div class="day">18
+        <div class="meal">
+         <div class="icon"></div>
+         <span class="iconmeal">meal 1</span>
+         </div>
+         <div class="meal">
+             <div class="icon"></div>
+             <span class="iconmeal">meal 2</span>
+             </div>
+       </div>
+
+
+       <div class="day">19
+        <div class="meal">
+         <div class="icon"></div>
+         <span class="iconmeal">meal 1</span>
+         </div>
+         <div class="meal">
+             <div class="icon"></div>
+             <span class="iconmeal">meal 2</span>
+             </div>
+       </div>
+
+
+       <div class="day">20
+        <div class="meal">
+         <div class="icon"></div>
+         <span class="iconmeal">meal 1</span>
+         </div>
+         <div class="meal">
+             <div class="icon"></div>
+             <span class="iconmeal">meal 2</span>
+             </div>
+       </div>
+
+
+       <div class="day">21
+        <div class="meal">
+         <div class="icon"></div>
+         <span class="iconmeal">meal 1</span>
+         </div>
+         <div class="meal">
+             <div class="icon"></div>
+             <span class="iconmeal">meal 2</span>
+             </div>
+       </div>
+</div>
+
+
+<div class="row">
+
+    <div class="day">22
+       <div class="meal">
+        <div class="icon"></div>
+        <span class="iconmeal">meal 1</span>
+        </div>
+        <div class="meal">
+            <div class="icon"></div>
+            <span>meal 2</span>
+            </div>
+      </div>
+
+      <div class="day">23
+        <div class="meal">
+         <div class="icon"></div>
+         <span class="iconmeal">meal 1</span>
+         </div>
+         <div class="meal">
+             <div class="icon"></div>
+             <span class="iconmeal">meal 2</span>
+             </div>
+       </div>
+
+       <div class="day">24
+        <div class="meal">
+         <div class="icon"></div>
+         <span class="iconmeal">meal 1</span>
+         </div>
+         <div class="meal">
+             <div class="icon"></div>
+             <span class="iconmeal">meal 2</span>
+             </div>
+       </div>
+
+       <div class="day">26
+        <div class="meal">
+         <div class="icon"></div>
+         <span class="iconmeal">meal 1</span>
+         </div>
+         <div class="meal">
+             <div class="icon"></div>
+             <span class="iconmeal">meal 2</span>
+             </div>
+       </div>
+
+
+       <div class="day">27
+        <div class="meal">
+         <div class="icon"></div>
+         <span class="iconmeal">meal 1</span>
+         </div>
+         <div class="meal">
+             <div class="icon"></div>
+             <span class="iconmeal">meal 2</span>
+             </div>
+       </div>
+
+
+       <div class="day">28
+        <div class="meal">
+         <div class="icon"></div>
+         <span class="iconmeal">meal 1</span>
+         </div>
+         <div class="meal">
+             <div class="icon"></div>
+             <span class="iconmeal">meal 2</span>
+             </div>
+       </div>
+
+
+       <div class="day">29
+        <div class="meal">
+         <div class="icon"></div>
+         <span class="iconmeal">meal 1</span>
+         </div>
+         <div class="meal">
+             <div class="icon"></div>
+             <span class="iconmeal">meal 2</span>
+             </div>
+       </div>
+</div>
+
+
+<div class="row">
+
+    <div class="day" id="30">30
+       <div class="meal">
+        <div class="icon"></div>
+        <span class="iconmeal">meal 1</span>
+        </div>
+        <div class="meal">
+            <div class="icon"></div>
+            <span>meal 2</span>
+            </div>
+      </div>
+
+      <div class="day" id="31">31
+        <div class="meal">
+         <div class="icon"></div>
+         <span class="iconmeal">meal 1</span>
+         </div>
+         <div class="meal">
+             <div class="icon"></div>
+             <span class="iconmeal">meal 2</span>
+             </div>
+       </div>
+
+       <div class="day vanish">32
+        <div class="meal">
+         <div class="icon"></div>
+         <span class="iconmeal">meal 1</span>
+         </div>
+         <div class="meal">
+             <div class="icon"></div>
+             <span class="iconmeal">meal 2</span>
+             </div>
+       </div>
+
+       <div class="day vanish">33
+        <div class="meal">
+         <div class="icon"></div>
+         <span class="iconmeal">meal 1</span>
+         </div>
+         <div class="meal">
+             <div class="icon"></div>
+             <span class="iconmeal">meal 2</span>
+             </div>
+       </div>
+
+
+       <div class="day vanish">5
+        <div class="meal">
+         <div class="icon"></div>
+         <span class="iconmeal">meal 1</span>
+         </div>
+         <div class="meal">
+             <div class="icon"></div>
+             <span class="iconmeal">meal 2</span>
+             </div>
+       </div>
+
+
+       <div class="day vanish">6
+        <div class="meal">
+         <div class="icon"></div>
+         <span class="iconmeal">meal 1</span>
+         </div>
+         <div class="meal">
+             <div class="icon"></div>
+             <span class="iconmeal">meal 2</span>
+             </div>
+       </div>
+
+
+       <div class="day vanish">7
+        <div class="meal">
+         <div class="icon"></div>
+         <span class="iconmeal">meal 1</span>
+         </div>
+         <div class="meal">
+             <div class="icon"></div>
+             <span class="iconmeal">meal 2</span>
+             </div>
+       </div>
+</div>
+       
+
+
+            </div>
+
+
+        </div>
+    </div>
+    
+
+    
+    
+
+    <script src="script.js"></script>
+</body>
+</html>

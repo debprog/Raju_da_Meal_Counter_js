@@ -1,0 +1,193 @@
+*{
+    box-sizing: border-box;
+}
+
+html {
+    font-family:Verdana, Geneva, Tahoma, sans-serif
+  }
+
+.parentcontainer{
+
+    display: flex;
+    height:100vh;
+    width:100vw;
+    /* background-color: rgb(97, 215, 91); */
+    flex-direction: column;
+    align-items: center;
+    
+   
+    margin: 0;
+    padding: 0;
+     /* border:2px solid red;  */
+}
+
+.containertop{
+
+    height:30vh;
+    width:100vw; 
+    background-color:rgb(34, 138, 34);
+    /* border:1px solid red; */
+    display:flex;
+    flex-direction:column;
+    align-items: center;
+    padding-bottom: 10px;
+}
+h1{
+    display:inline;
+     /* border:1px solid red; */
+     /* background-color: red; */
+     color:white;
+     
+}
+
+.legend{
+
+    /* border:1px solid red; */
+    height:5vh;
+    width:30vw;
+    display: flex;
+    justify-content: center;
+
+
+}
+
+.divtotal
+{
+    display: flex;
+    height:40px;
+    width:100px;
+    /* border: 2px solid red ; */
+    justify-content: center;
+    align-items: center;
+}
+
+
+
+
+/*dvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvv*/
+
+.mealdiv{
+    /* border:1px solid red; */
+    display: flex;
+    height:5vh;
+    width: 100vh;
+    justify-content: center;
+}
+.check{
+    height:3vh;
+    width: 2vw;
+    border:2px solid black;
+    margin-left: 2px;
+    background-color:rgb(45, 37, 255);
+}
+
+.uncheck{
+    height:3vh;
+    width: 2vw;
+    border:2px solid black;
+    margin-left: 2px;
+    background-color:#fff;
+    
+    
+}
+
+.containerbottom{
+
+    height:70vh;
+   width:90vw;
+   display:flex;
+   
+   flex-direction: column;
+   align-items: center;
+    /* background-color: red; */
+    /* border:2px solid red ; */
+
+}
+
+.selectdiv
+{
+    display:flex;
+    justify-content: space-between;
+    width:150px;
+    /* border:2px solid red; */
+    
+    
+   
+}
+
+.calender
+{
+    display: flex;
+    flex-direction: column;
+    /* border: 1px solid rgb(13, 38, 9) ;  */
+    
+}
+
+.row
+{
+    display: flex;
+    /* background-color: rgb(71, 201, 71); */
+     /* border: 1px solid rgb(27, 187, 24) ; */
+    justify-content: center;
+    flex-direction: row;
+   
+
+
+}
+
+.day
+{
+    border: 1px solid rgb(69, 235, 9) ;
+    width:90px;
+    height:90px;
+    flex-direction: column;
+    display:flex;
+
+}
+
+.meal{
+    display:flex;
+    justify-content: center;
+    align-items:normal;
+}
+
+.icon{
+    
+    height:15px ;
+    width:15px;
+    border: 1px solid black;
+}
+
+
+.vanish
+{
+    visibility: hidden;
+}
+
+#save{
+    height:200px;
+    width:200px;
+    
+}
+
+.mealname{
+    color:white;
+}
+
+#count
+{
+    font-size:2em;
+}
+
+#bill{
+    font-size:2em;
+}
+
+#lab{
+    font-size:15px;
+}
+
+#save{
+    font-size: 25px;
+    font-weight: bolder;
+}
